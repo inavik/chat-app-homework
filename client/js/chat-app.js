@@ -4,7 +4,10 @@
   window.chat = window.chat || {};
 
 window.chat.listenForMessages(function messageHandler(data) {
+  $('.messages')
+    .append('<p>' + data.message + '</p>')
 
+console.log(data);
 
 
 });
