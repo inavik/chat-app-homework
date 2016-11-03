@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAM;EACJ,MAAM,EAAE,iBAAiB;EACzB,MAAM,EAAE,MAAM",
+"sources": ["sass/_chat.scss"],
+"names": [],
+"file": "style.css"
+}

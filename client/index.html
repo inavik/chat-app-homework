@@ -9,18 +9,20 @@
         <link href='style.css' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <form class='login' action='/login' method='POST'>
+        <form class='login' action='/login' method='POST' type= >
             <input type='text' class='username' placeholder='What username?' name='username' required>
             <input type='submit' value='Login'>
         </form>
 
-        <main class='chat'>
-            <section class='messages'></section>
 
+        <main class='chat'>
             <form class='send-message' action='/chat' method='POST'>
                 <input type='text' class='message' placeholder='message...' name='message' required>
                 <input type='submit' value='Send'>
             </form>
+
+            <section class='messages'></section>
+
         </main>
 
         <script src= 'js/jquery-3.0.0.js'></script>
